@@ -1,0 +1,9 @@
+/**
+ * 背景色：#eaeae9
+ * 菜单背景色：#0a834b
+ */
+body{background: #eaeae9;}
+header{height: 60px;background: rgba(10, 131, 75,.8);
+    border-bottom:1px solid rgba(32,117,73,.5);}
+.m-t-30{margin-top: 30px;}
+#body{background: white;padding: 10px;}
