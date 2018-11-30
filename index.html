@@ -4,30 +4,237 @@
     <meta charset="UTF-8">
     <title>09网络3</title>
     <link href="statics/lib/bootcss/css/bootstrap.min.css" rel="stylesheet">
+    <link href="//at.alicdn.com/t/font_939408_1tgm5jll2us.css" rel="stylesheet">
     <link href="statics/css/reset.css" rel="stylesheet">
 </head>
 <body>
 <header>
     <div class="container-fluid">
-        <div class="row">
-
-        </div>
-    </div>
-</header>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div id="header" class="m-t-30">
-                    <div class="col-md-3">
-                        09网络3
+        <div class="row" id="headerTop">
+            <div class="col-md-4 col-sm-4">
+                <a href="" class="logo pull-left">
+                    <img height="40" src="statics/img/logo.png" alt="">
+                </a>
+                <div class="dropdown pull-left">
+                    <a href="javascript:;" class="dropdown-toggle font-size-16" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                        <i class="iconfont icon-link"></i>
+                        快捷入口
+                        <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                        <li><a href="#">学院官网</a></li>
+                        <li><a href="#">同学录</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">系统下载</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-3">
+                <div class="row notify">
+                    <div class="col-md-2 col-sm-2 text-right">
+                        <i class="iconfont icon-notification-bell"></i>
+                    </div>
+                    <div class="col-md-10 col-sm-10">
+                        <a href="">新版正式上线啦，快了体验吧</a>
                     </div>
                 </div>
-                <div id="body">
-
+            </div>
+            <div class="col-md-5 col-sm-5">
+                <ul class="menuList">
+                    <li>
+                        <a href="" class="font-size-16">
+                            <i class="iconfont icon-search"></i>
+                            站内搜索
+                        </a>
+                    </li>
+                   <li>
+                       <a href="" class="font-size-16">
+                           <i class="iconfont icon-user-alt"></i>
+                           登录
+                       </a>
+                   </li>
+                    <li>
+                        <a href="" class="font-size-16">
+                            <i class="iconfont icon-user-plus"></i>
+                            注册
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" id="headerMenu">
+        <div class="container" >
+            <div class="row">
+                <div class="col-md-12">
+                    <ul id="menuList">
+                        <li class="active">
+                            <a href="">
+                                <i class="iconfont icon-home"></i>
+                                家园首页
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i class="iconfont icon-news"></i>
+                                班级博文
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i class="iconfont icon-chat-double"></i>
+                                班级动态
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i class="iconfont icon-cam"></i>
+                                班级相册
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i class="iconfont icon-user-group"></i>
+                                关于班级
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i class="iconfont icon-email"></i>
+                                联系我们
+                            </a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
     </div>
+</header>
+<div class="container">
+    <div class="row">
+        <div class="col-md-7 col-sm-12">
+            <div class="home-carousel m-t-25 box-shadown" data-example-id="simple-carousel">
+                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <img data-src="http://jxcia.com/__local/4/47/FE/B6CC6B89D14ED616E7D3B32F577_CD77BC0E_129A6.jpg" alt="First slide [900x500]" src="http://jxcia.com/__local/4/47/FE/B6CC6B89D14ED616E7D3B32F577_CD77BC0E_129A6.jpg" data-holder-rendered="true">
+                            <h2>
+                                <a href="">
+                                    2018年思政课暑期社会实践报告会圆满举行
+                                </a>
+                            </h2>
+                        </div>
+                        <div class="item">
+                            <img data-src="http://jxcia.com/__local/4/47/FE/B6CC6B89D14ED616E7D3B32F577_CD77BC0E_129A6.jpg" alt="First slide [900x500]" src="http://jxcia.com/__local/4/47/FE/B6CC6B89D14ED616E7D3B32F577_CD77BC0E_129A6.jpg" data-holder-rendered="true">
+                            <h2>
+                                <a href="">
+                                    2019年思政课暑期社会实践报告会圆满举行
+                                </a>
+                            </h2>
+                        </div>
+                        <div class="item">
+                            <img data-src="http://jxcia.com/__local/4/47/FE/B6CC6B89D14ED616E7D3B32F577_CD77BC0E_129A6.jpg" alt="First slide [900x500]" src="http://jxcia.com/__local/4/47/FE/B6CC6B89D14ED616E7D3B32F577_CD77BC0E_129A6.jpg" data-holder-rendered="true">
+                            <h2>
+                                <a href="">
+                                    2020年思政课暑期社会实践报告会圆满举行
+                                </a>
+                            </h2>
+                        </div>
+                    </div>
+                    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                        <span class="glyphicon iconfont icon-fanhui" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                        <span class="iconfont icon-gengduo" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-5 col-sm-12">
+            <div class="m-t-25 panel panel-info box-shadown top-news">
+                <div class="panel-heading">
+                    <h2><i class="iconfont icon-news"></i> 班级博文</h2>
+                    <a href="" class="pull-right">更多</a>
+                </div>
+                <div class="panel-body">
+                    <div class="media">
+                        <div class="media-left">
+                            <a href="#">
+                                <img class="media-object" data-src="holder.js/64x64" alt="64x64" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHZpZXdCb3g9IjAgMCA2NCA2NCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+PCEtLQpTb3VyY2UgVVJMOiBob2xkZXIuanMvNjR4NjQKQ3JlYXRlZCB3aXRoIEhvbGRlci5qcyAyLjYuMC4KTGVhcm4gbW9yZSBhdCBodHRwOi8vaG9sZGVyanMuY29tCihjKSAyMDEyLTIwMTUgSXZhbiBNYWxvcGluc2t5IC0gaHR0cDovL2ltc2t5LmNvCi0tPjxkZWZzPjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+PCFbQ0RBVEFbI2hvbGRlcl8xNjc2MzViZTc2YSB0ZXh0IHsgZmlsbDojQUFBQUFBO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1mYW1pbHk6QXJpYWwsIEhlbHZldGljYSwgT3BlbiBTYW5zLCBzYW5zLXNlcmlmLCBtb25vc3BhY2U7Zm9udC1zaXplOjEwcHQgfSBdXT48L3N0eWxlPjwvZGVmcz48ZyBpZD0iaG9sZGVyXzE2NzYzNWJlNzZhIj48cmVjdCB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIGZpbGw9IiNFRUVFRUUiLz48Zz48dGV4dCB4PSIxMy40Njg3NSIgeT0iMzYuNSI+NjR4NjQ8L3RleHQ+PC9nPjwvZz48L3N2Zz4=" data-holder-rendered="true" style="width: 64px; height: 64px;">
+                            </a>
+                        </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">软件工程系举办“互联网+教学”讲座</h4>
+                            11月29日晚，软件工程系周香庆老师在教学楼J201举办了“别样的课堂”——在线开放课程的学习与交流讲座，此次讲座吸引了来自软...
+                        </div>
+                    </div>
+                    <div class="media">
+                        <div class="media-left">
+                            <a href="#">
+                                <img class="media-object" data-src="holder.js/64x64" alt="64x64" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHZpZXdCb3g9IjAgMCA2NCA2NCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+PCEtLQpTb3VyY2UgVVJMOiBob2xkZXIuanMvNjR4NjQKQ3JlYXRlZCB3aXRoIEhvbGRlci5qcyAyLjYuMC4KTGVhcm4gbW9yZSBhdCBodHRwOi8vaG9sZGVyanMuY29tCihjKSAyMDEyLTIwMTUgSXZhbiBNYWxvcGluc2t5IC0gaHR0cDovL2ltc2t5LmNvCi0tPjxkZWZzPjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+PCFbQ0RBVEFbI2hvbGRlcl8xNjc2MzViZTc2YSB0ZXh0IHsgZmlsbDojQUFBQUFBO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1mYW1pbHk6QXJpYWwsIEhlbHZldGljYSwgT3BlbiBTYW5zLCBzYW5zLXNlcmlmLCBtb25vc3BhY2U7Zm9udC1zaXplOjEwcHQgfSBdXT48L3N0eWxlPjwvZGVmcz48ZyBpZD0iaG9sZGVyXzE2NzYzNWJlNzZhIj48cmVjdCB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIGZpbGw9IiNFRUVFRUUiLz48Zz48dGV4dCB4PSIxMy40Njg3NSIgeT0iMzYuNSI+NjR4NjQ8L3RleHQ+PC9nPjwvZz48L3N2Zz4=" data-holder-rendered="true" style="width: 64px; height: 64px;">
+                            </a>
+                        </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">软件工程系举办“互联网+教学”讲座</h4>
+                            11月29日晚，软件工程系周香庆老师在教学楼J201举办了“别样的课堂”——在线开放课程的学习与交流讲座，此次讲座吸引了来自软...
+                        </div>
+                    </div>
+                    <div class="media">
+                        <div class="media-left">
+                            <a href="#">
+                                <img class="media-object" data-src="holder.js/64x64" alt="64x64" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHZpZXdCb3g9IjAgMCA2NCA2NCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+PCEtLQpTb3VyY2UgVVJMOiBob2xkZXIuanMvNjR4NjQKQ3JlYXRlZCB3aXRoIEhvbGRlci5qcyAyLjYuMC4KTGVhcm4gbW9yZSBhdCBodHRwOi8vaG9sZGVyanMuY29tCihjKSAyMDEyLTIwMTUgSXZhbiBNYWxvcGluc2t5IC0gaHR0cDovL2ltc2t5LmNvCi0tPjxkZWZzPjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+PCFbQ0RBVEFbI2hvbGRlcl8xNjc2MzViZTc2YSB0ZXh0IHsgZmlsbDojQUFBQUFBO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1mYW1pbHk6QXJpYWwsIEhlbHZldGljYSwgT3BlbiBTYW5zLCBzYW5zLXNlcmlmLCBtb25vc3BhY2U7Zm9udC1zaXplOjEwcHQgfSBdXT48L3N0eWxlPjwvZGVmcz48ZyBpZD0iaG9sZGVyXzE2NzYzNWJlNzZhIj48cmVjdCB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIGZpbGw9IiNFRUVFRUUiLz48Zz48dGV4dCB4PSIxMy40Njg3NSIgeT0iMzYuNSI+NjR4NjQ8L3RleHQ+PC9nPjwvZz48L3N2Zz4=" data-holder-rendered="true" style="width: 64px; height: 64px;">
+                            </a>
+                        </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">软件工程系举办“互联网+教学”讲座</h4>
+                            11月29日晚，软件工程系周香庆老师在教学楼J201举办了“别样的课堂”——在线开放课程的学习与交流讲座，此次讲座吸引了来自软...
+                        </div>
+                    </div>
+                    <div class="media">
+                        <div class="media-left">
+                            <a href="#">
+                                <img class="media-object" data-src="holder.js/64x64" alt="64x64" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHZpZXdCb3g9IjAgMCA2NCA2NCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+PCEtLQpTb3VyY2UgVVJMOiBob2xkZXIuanMvNjR4NjQKQ3JlYXRlZCB3aXRoIEhvbGRlci5qcyAyLjYuMC4KTGVhcm4gbW9yZSBhdCBodHRwOi8vaG9sZGVyanMuY29tCihjKSAyMDEyLTIwMTUgSXZhbiBNYWxvcGluc2t5IC0gaHR0cDovL2ltc2t5LmNvCi0tPjxkZWZzPjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+PCFbQ0RBVEFbI2hvbGRlcl8xNjc2MzViZTc2YSB0ZXh0IHsgZmlsbDojQUFBQUFBO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1mYW1pbHk6QXJpYWwsIEhlbHZldGljYSwgT3BlbiBTYW5zLCBzYW5zLXNlcmlmLCBtb25vc3BhY2U7Zm9udC1zaXplOjEwcHQgfSBdXT48L3N0eWxlPjwvZGVmcz48ZyBpZD0iaG9sZGVyXzE2NzYzNWJlNzZhIj48cmVjdCB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIGZpbGw9IiNFRUVFRUUiLz48Zz48dGV4dCB4PSIxMy40Njg3NSIgeT0iMzYuNSI+NjR4NjQ8L3RleHQ+PC9nPjwvZz48L3N2Zz4=" data-holder-rendered="true" style="width: 64px; height: 64px;">
+                            </a>
+                        </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">软件工程系举办“互联网+教学”讲座</h4>
+                            11月29日晚，软件工程系周香庆老师在教学楼J201举办了“别样的课堂”——在线开放课程的学习与交流讲座，此次讲座吸引了来自软...
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid box-shadown" style="margin-top: 65px;">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-9 col-sm-12">
+                <div class="panel panel-info box-shadown">
+                    <div class="panel-heading">
+                        <h2><i class="iconfont icon-cam"></i> 班级相册</h2>
+                        <a href="" class="pull-right">更多</a>
+                    </div>
+                    <div class="panel-body"></div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-12">
+                <div class="list-group">
+                    <a href="#" class="list-group-item active">
+                        Cras justo odio
+                    </a>
+                    <a href="#" class="list-group-item">Dapibus ac facilisis in</a>
+                    <a href="#" class="list-group-item">Morbi leo risus</a>
+                    <a href="#" class="list-group-item">Porta ac consectetur ac</a>
+                    <a href="#" class="list-group-item">Vestibulum at eros</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 <script src="statics/lib/jquery/jquery.min.js"></script>
 <script src="statics/lib/bootcss/js/bootstrap.min.js"></script>
 </body>

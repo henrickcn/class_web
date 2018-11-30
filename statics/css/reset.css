@@ -2,8 +2,54 @@
  * 背景色：#eaeae9
  * 菜单背景色：#0a834b
  */
-body{background: #eaeae9;}
-header{height: 60px;background: rgba(10, 131, 75,.8);
-    border-bottom:1px solid rgba(32,117,73,.5);}
-.m-t-30{margin-top: 30px;}
-#body{background: white;padding: 10px;}
+body {
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+    background: #eaeae9;
+    min-width: 1100px;
+    color: #767676;
+}
+header{height: 110px;}
+.font-size-16{font-size: 16px;}
+.m-t-25{margin-top: 25px;}
+.box-shadown{box-shadow: #e0e0e0 0 0px 5px;background: white;border-radius: 5px;overflow:hidden;}
+.panel-info .panel-heading{background: rgba(19, 121, 206,1);color: white;font-size: 16px;height: 45px;}
+.panel-info .panel-heading h2{display: inline-block;margin: 0;padding: 0;font-size: 16px;font-weight: normal;}
+.panel-info .panel-heading a{color: white;}
+#headerTop{height: 60px;background: rgba(19, 121, 206,.8);border-bottom:1px solid rgba(32,117,73,.5);}
+#headerTop a:hover,#headerTop a:focus{text-decoration: none;}
+.iconfont{font-size: 20px;position: relative;top:2px;}
+#headerTop .logo{padding:8px 0 0 0;display: block;width: 146px;}
+#headerTop .notify{line-height: 35px;border: 1px solid rgba(255,255,255,.3);border-radius: 35px;margin-top: 10px;}
+#headerTop .notify a{color: white;}
+#headerTop .notify .iconfont{color: white}
+#headerTop ul.menuList,#headerTop ul.menuList li{list-style: none;margin: 0px;padding: 0 20px;}
+#headerTop .menuList{display: block;text-align: right;height: 60px;overflow:hidden}
+#headerTop ul.menuList li{display: inline-block;line-height: 60px;border-left: 1px solid rgba(255,255,255,.3);padding: 0 20px;}
+#headerTop ul.menuList li a{color: white;}
+#headerTop ul.menuList li a:hover{font-weight: bold;}
+#headerTop #dropdownMenu1{display: block;text-align: center;width: 150px;height: 60px;line-height: 55px;color: white;padding-right: 20px;}
+#headerMenu{margin-top: 1px;height: 60px;background: white;box-shadow: #e0e0e0 0 1px 2px;}
+#menuList,#menuList li{display: inline-block;list-style: none;margin: 0px;padding: 0 20px;line-height: 57px;font-size: 16px;}
+#menuList li a{color: #808284;text-decoration: none;display: block;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+#menuList li a:hover,#menuList li a:focus,#menuList li.active a{text-decoration: none;line-height: 57px;color: #ef9f4e;border-bottom: 3px solid #ef9f4e;}
+.home-carousel{background: white;}
+.home-carousel .carousel-inner>.item img{height: 380px;width: 100%}
+.home-carousel .carousel-inner .item h2{background: rgba(255,255,255,.8);padding:0;margin: 0;position: absolute;width: 100%;bottom: 0px;left: 0px;z-index: 2;font-size: 20px;font-weight: normal;}
+.home-carousel .carousel-inner .item h2 a{display: block;line-height: 50px;padding:0 20px;color: #000000}
+.home-carousel .carousel-control.right{line-height: 380px;}
+.home-carousel .carousel-control.left{line-height: 380px;}
+.home-carousel .carousel-control .iconfont{font-size: 40px;}
+
+.top-news{height: 380px;}
+.top-news ul,.top-news ul li{list-style: none;margin: 0;padding: 0;}
+.top-news ul li h3{padding: 0;margin: 0;font-size: 14px;padding:10px 0px;}
+.top-news ul li a{color: #8e8d8e;font-weight: normal;}
+.top-news .media{height: 64px;overflow: hidden}
+.top-news .media-heading{font-size: 16px;color: #767676;font-weight: normal;}
+.top-news .media-body{color: #adadad;font-weight: normal;}
