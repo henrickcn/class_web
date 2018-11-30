@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <title>09网络3</title>
     <link href="statics/lib/bootcss/css/bootstrap.min.css" rel="stylesheet">
-    <link href="//at.alicdn.com/t/font_939408_1tgm5jll2us.css" rel="stylesheet">
+    <link href="statics/lib/swiper/css/swiper.min.css" rel="stylesheet">
+    <link href="//at.alicdn.com/t/font_939408_br9iru4sjb.css" rel="stylesheet">
     <link href="statics/css/reset.css" rel="stylesheet">
 </head>
 <body>
@@ -209,27 +210,82 @@
         </div>
     </div>
 </div>
-<div class="container-fluid box-shadown" style="margin-top: 65px;">
+<div class="container-fluid photo p-t-25">
     <div class="container">
         <div class="row">
-            <div class="col-md-9 col-sm-12">
-                <div class="panel panel-info box-shadown">
-                    <div class="panel-heading">
-                        <h2><i class="iconfont icon-cam"></i> 班级相册</h2>
-                        <a href="" class="pull-right">更多</a>
-                    </div>
-                    <div class="panel-body"></div>
+            <div class="col-md-8 col-sm-12 m-b-25">
+                <a href="" class="link-btn add-one">
+                    <img width="100%" height="132" src="statics/img/add-one.png" alt="" class="sr">
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-12 m-b-25">
+                <div class="quit-link">
+                    <a href="" class="text-center link-btn">
+                        <span>
+                            <i class="iconfont icon-dashang"></i>
+                            班级留言薄
+                        </span>
+                    </a>
+                    <a href="" class="text-center link-btn">
+                        <span>
+                            <i class="iconfont icon-dashang"></i>
+                            打赏赞助
+                        </span>
+                    </a>
                 </div>
             </div>
-            <div class="col-md-3 col-sm-12">
-                <div class="list-group">
-                    <a href="#" class="list-group-item active">
-                        Cras justo odio
-                    </a>
-                    <a href="#" class="list-group-item">Dapibus ac facilisis in</a>
-                    <a href="#" class="list-group-item">Morbi leo risus</a>
-                    <a href="#" class="list-group-item">Porta ac consectetur ac</a>
-                    <a href="#" class="list-group-item">Vestibulum at eros</a>
+        </div>
+    </div>
+</div>
+<div class="container photo-box">
+    <div class="row">
+        <div class="col-md-12 col-sm-12">
+            <div class="panel panel-info box-shadown m-t-25">
+                <div class="panel-heading">
+                    <h2><i class="iconfont icon-cam"></i> 班级相册</h2>
+                    <a href="" class="pull-right">更多</a>
+                </div>
+                <div class="panel-body">
+                    <!-- Swiper -->
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="http://www.09w3.com/ssphoto/226228http_imgloadCAWR0DU3.jpg" class="swiper-slide swiper-lazy" alt="">
+                                <div class="swiper-lazy-preloader"></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="http://www.09w3.com/ssphoto/228855http_imgloadCAWR0DU3.jpg" class="swiper-slide swiper-lazy" alt="">
+                                <div class="swiper-lazy-preloader"></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="http://www.09w3.com/ssphoto/2240157.jpg" class="swiper-slide swiper-lazy" alt="">
+                                <div class="swiper-lazy-preloader"></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="http://www.09w3.com/ssphoto/22325923.jpg" class="swiper-slide swiper-lazy" alt="">
+                                <div class="swiper-lazy-preloader"></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="http://www.09w3.com/ssphoto/226228http_imgloadCAWR0DU3.jpg" class="swiper-slide swiper-lazy" alt="">
+                                <div class="swiper-lazy-preloader"></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="http://www.09w3.com/ssphoto/228855http_imgloadCAWR0DU3.jpg" class="swiper-slide swiper-lazy" alt="">
+                                <div class="swiper-lazy-preloader"></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="http://www.09w3.com/ssphoto/2240157.jpg" class="swiper-slide swiper-lazy" alt="">
+                                <div class="swiper-lazy-preloader"></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="http://www.09w3.com/ssphoto/22325923.jpg"  class="swiper-slide swiper-lazy" alt="">
+                                <div class="swiper-lazy-preloader"></div>
+                            </div>
+                        </div>
+                        <!-- Add Pagination -->
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -237,5 +293,26 @@
 </div>
 <script src="statics/lib/jquery/jquery.min.js"></script>
 <script src="statics/lib/bootcss/js/bootstrap.min.js"></script>
+<script src="statics/lib/swiper/js/swiper.min.js"></script>
+<script>
+    $(function () {
+        var swiper = new Swiper('.swiper-container', {
+            slidesPerView: 4,
+            spaceBetween: 30,
+            slidesPerGroup: 1,
+            height: 100,
+            loop: true,
+            autoplay: true,
+            loopFillGroupWithBlank: true,
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            lazy: {
+                loadPrevNext: true,
+            },
+        });
+    });
+</script>
 </body>
 </html>

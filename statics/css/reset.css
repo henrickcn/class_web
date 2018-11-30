@@ -11,14 +11,27 @@ body {
 header{height: 110px;}
 .font-size-16{font-size: 16px;}
 .m-t-25{margin-top: 25px;}
+.m-b-25{margin-bottom: 25px;}
+.p-t-25{padding-top: 25px;}
+a.link-btn{display: block;position: relative;text-decoration: none;}
+a.link-btn:after{content: "";display: block;position: absolute;width: 0px;top: 0;bottom: 0;background: rgba(19, 121, 206,.5);border-radius: 0 100% 100% 0;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;}
+a.link-btn:hover:after{width: 100%;border-radius: 0;}
+
 .box-shadown{box-shadow: #e0e0e0 0 0px 5px;background: white;border-radius: 5px;overflow:hidden;}
-.panel-info .panel-heading{background: rgba(19, 121, 206,1);color: white;font-size: 16px;height: 45px;}
-.panel-info .panel-heading h2{display: inline-block;margin: 0;padding: 0;font-size: 16px;font-weight: normal;}
+.panel-heading{color: white;font-size: 16px;height: 45px;}
+.panel-heading h2{display: inline-block;margin: 0;padding: 0;font-size: 16px;font-weight: normal;}
+.panel-info .panel-heading{background: rgba(19, 121, 206,1);}
+.panel-info .panel-heading h2{color: white;}
 .panel-info .panel-heading a{color: white;}
 #headerTop{height: 60px;background: rgba(19, 121, 206,.8);border-bottom:1px solid rgba(32,117,73,.5);}
 #headerTop a:hover,#headerTop a:focus{text-decoration: none;}
 .iconfont{font-size: 20px;position: relative;top:2px;}
-#headerTop .logo{padding:8px 0 0 0;display: block;width: 146px;}
+#headerTop .logo{padding:8px 0 0 0;display: block;width: 183px;}
 #headerTop .notify{line-height: 35px;border: 1px solid rgba(255,255,255,.3);border-radius: 35px;margin-top: 10px;}
 #headerTop .notify a{color: white;}
 #headerTop .notify .iconfont{color: white}
@@ -53,3 +66,12 @@ header{height: 110px;}
 .top-news .media{height: 64px;overflow: hidden}
 .top-news .media-heading{font-size: 16px;color: #767676;font-weight: normal;}
 .top-news .media-body{color: #adadad;font-weight: normal;}
+.photo{box-shadow: #e0e0e0 0 0px 5px;background: white;}
+.photo-box .swiper-slide{overflow: hidden;height: 250px;position: relative}
+.photo-box .swiper-slide img{width: 100%;height: 250px;}
+.add-one{border-radius: 5px;overflow: hidden}
+.quit-link{}
+.quit-link a{background: #e7955d;color: white;font-size: 18px;border-radius: 5px;
+    overflow: hidden;line-height: 60px;}
+.quit-link a span{position: relative;z-index: 2}
+.quit-link a:last-child{background: #e43c49;margin-top: 10px;}
